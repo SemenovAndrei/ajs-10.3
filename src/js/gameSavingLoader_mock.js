@@ -1,18 +1,19 @@
+/* eslint-disable camelcase */
 import read from './reader';
-import json from './parser';
+import json from './parser mock';
 import GameSaving from './gameSaving';
 
 /**
  * @class GameSavingLoader
  */
-class GameSavingLoader {
+class GameSavingLoader_mock {
   /**
    * return new GameSaving
    */
   static async load(data) {
     try {
       const readData = await read(data);
-      const jsonData = await json(readData);
+      const jsonData = json(readData);
       return new GameSaving(JSON.parse(jsonData));
     } catch (err) {
       return err;
@@ -20,4 +21,4 @@ class GameSavingLoader {
   }
 }
 
-export default GameSavingLoader;
+export default GameSavingLoader_mock;
