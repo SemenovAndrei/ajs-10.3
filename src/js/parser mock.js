@@ -1,3 +1,3 @@
 export default function json() {
-  throw new Error('mocked');
+  return new Error('mocked');
 }
