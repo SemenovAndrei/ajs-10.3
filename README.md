@@ -1,4 +1,4 @@
-# ajs-10.2
+# ajs-10.3
 
-[![Build status](https://ci.appveyor.com/api/projects/status/03u5w12n1c043o5f?svg=true)](https://ci.appveyor.com/project/i-hit/ajs-10-2)
+[![Build status](https://ci.appveyor.com/api/projects/status/wevbhl9jvy8d2ykk?svg=true)](https://ci.appveyor.com/project/i-hit/ajs-10-3)
 
